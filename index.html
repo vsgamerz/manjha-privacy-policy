@@ -28,22 +28,27 @@
     </style>
   </head>
   <body>
+    <!-- Source of truth for the policy published at
+         https://vsgamerz.github.io/manjha-privacy-policy/ -->
     <h1>Privacy Policy — Manjha: Kite Fight</h1>
-    <p class="updated">Last updated: 27th July, 2026</p>
+    <p class="updated">Last updated: 2 November 2026</p>
 
     <p>
       This policy explains what Manjha (<code>com.vsgamerz.manjha</code>) collects
-      and why. In short: the game itself stores your scores on your own device,
-      and the only data leaving your phone is what our advertising provider
-      collects and — if you post a score — the name you choose for the
-      leaderboard.
+      and why. In short: the game itself stores your scores, kite unlocks, and
+      settings on your own device. Data that can leave your phone is what our
+      advertising provider collects, anonymous gameplay events sent to Firebase
+      Analytics when that service is configured, and — if you post a score —
+      the name you choose for the leaderboard.
     </p>
 
     <h2>What is stored on your device</h2>
     <p>
-      Your high scores, chosen display name, difficulty preference, and sound
-      and vibration settings are saved locally in the app. They are not sent
-      anywhere unless described below. Uninstalling the app removes them.
+      Your high scores, chosen display name, kite colour, cut progress, daily
+      goal, difficulty preference, and sound and vibration settings are saved
+      locally in the app. A reminder for the next evening, if you allow
+      notifications, is scheduled on the device and is not sent to us.
+      Uninstalling the app removes the local data.
     </p>
 
     <h2>Advertising</h2>
@@ -63,10 +68,21 @@
         <strong>Android Settings → Privacy → Ads</strong>.
       </li>
       <li>
-        Where required by law, you will be shown a consent form before any
-        personalised ads are loaded, and you may change that choice later.
+        Where required by law, you will be shown a consent form before the
+        advertising SDK starts, and you may change that choice later.
       </li>
     </ul>
+
+    <h2>Analytics</h2>
+    <p>
+      When Firebase Analytics is configured for this app, the game sends
+      anonymous event names (such as the app starting, a kite being cut, or a
+      round ending) together with the round's score, cut count, length in
+      seconds, and difficulty. Firebase also receives its usual app-instance
+      identifier and device information so those events can be counted.
+      Events are not tied to your leaderboard name. If analytics is not
+      configured, nothing is sent.
+    </p>
 
     <h2>Online leaderboard</h2>
     <p>
@@ -118,7 +134,6 @@
 
     <h2>Contact</h2>
     <p>
-      <!-- TODO: use the same support address as the Play listing -->
       <a href="mailto:psgameplay121@gmail.com">psgameplay121@gmail.com</a>
     </p>
 
